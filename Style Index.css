@@ -18,5 +18,11 @@ button:hover {
     color: red;
 }
 
+.links {
+    height: auto;
+    width: 200px;
+    position: fixed;
+    left: 0px;
+}
 
 /* Css is the design language of a site, it controls the background color, font, placement of stuff, animations, etc,*/
