@@ -11,6 +11,7 @@ p, h1, h2, h3, h4, h5, h6{
 
 button{
     text-align:center;
+    border-radius: 20%;
 }
 
 
@@ -23,7 +24,7 @@ button:hover {
     width: 200px;
     position: fixed;
     left: 0px;
-    display: inline-block;
+    display: block;
     z-index: 10;
 }
 
