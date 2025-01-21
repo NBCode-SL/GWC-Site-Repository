@@ -1,0 +1,22 @@
+body {
+    background:#690505;
+    color: #ffd; /*#800000*/
+    font-family: sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    color: white;
+    text-align:center;
+}
+
+button{
+    text-align:center;
+}
+
+
+button:hover {
+    color: red;
+}
+
+
+/* Css is the design language of a site, it controls the background color, font, placement of stuff, animations, etc,*/
