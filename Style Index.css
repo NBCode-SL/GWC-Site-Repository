@@ -23,6 +23,7 @@ button:hover {
     width: 200px;
     position: fixed;
     left: 0px;
+    display: inline-block;
     z-index: 10;
 }
 
