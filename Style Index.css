@@ -1,16 +1,23 @@
 body {
-    background:#690505;
-    color: #ffd; /*#800000*/
+    background: #690505;
+    color: #ffd;
+    /*#800000*/
     font-family: sans-serif;
 }
 
-p, h1, h2, h3, h4, h5, h6{
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: white;
-    text-align:center;
+    text-align: center;
 }
 
-button{
-    text-align:center;
+button {
+    text-align: center;
     border-radius: 2%;
     background-color: white;
 }
@@ -21,16 +28,26 @@ button:hover {
 
 }
 
-.tutor-list{
+.tutor-list {
     margin: 0 auto;
 }
 
-#club-table{
+#club-table {
     margin: 0 auto;
 
 }
-.links-t, .links-c, .links-mh, .links-index {
+
+.links-t,
+.links-c,
+.links-mh,
+.links-index {
     margin: 0 auto;
+}
+
+.link-header {
+    height: 100px;
+    width: 100%;
+    border: 20px
 }
 
 /* Css is the design language of a site, it controls the background color, font, placement of stuff, animations, etc,*/
