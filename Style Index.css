@@ -41,7 +41,7 @@ button:hover {
     height: 100px;
     width: auto;
     position: relative;
-    border: 200px black;
+    display: inline-block;
 }
 
 /* Css is the design language of a site, it controls the background color, font, placement of stuff, animations, etc,*/
