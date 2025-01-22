@@ -34,6 +34,9 @@ button:hover {
 
 #club-table {
     margin: 0 auto;
+    color: black;
+    background-color: #ffd;
+    border: black;
 
 }
 
@@ -44,5 +47,7 @@ button:hover {
     display: inline-block;
     margin: 0 auto;
 }
+
+
 
 /* Css is the design language of a site, it controls the background color, font, placement of stuff, animations, etc,*/
