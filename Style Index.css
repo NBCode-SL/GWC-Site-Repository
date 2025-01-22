@@ -37,17 +37,11 @@ button:hover {
 
 }
 
-.links-t,
-.links-c,
-.links-mh,
-.links-index {
-    margin: 0 auto;
-}
-
 .link-header {
     height: 100px;
-    width: 100%;
-    border: 20px
+    width: auto;
+    positoin: relative;
+    border: 200px black;
 }
 
 /* Css is the design language of a site, it controls the background color, font, placement of stuff, animations, etc,*/
