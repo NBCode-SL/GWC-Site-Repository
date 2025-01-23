@@ -22,8 +22,11 @@ button:hover {
 
 }
 
-.tutor-list {
+#tutor-list {
     margin: 0 auto;
+    color: black;
+    background-color: #ffff;
+    border: black;
 }
 
 #club-table {
@@ -37,9 +40,10 @@ button:hover {
 .link-header {
     height: 100px;
     width: auto;
-    position: relative;
+    position: center;
     display: inline-block;
     margin: 0 auto;
+
 }
 
 a {
