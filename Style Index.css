@@ -5,13 +5,7 @@ body {
     font-family: sans-serif;
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+p, h1, h2, h3, h4, h5, h6 {
     color: white;
     text-align: center;
 }
@@ -35,7 +29,7 @@ button:hover {
 #club-table {
     margin: 0 auto;
     color: black;
-    background-color: #ffd;
+    background-color: #ffff;
     border: black;
 
 }
@@ -46,6 +40,10 @@ button:hover {
     position: relative;
     display: inline-block;
     margin: 0 auto;
+}
+
+a {
+ 
 }
 
 
