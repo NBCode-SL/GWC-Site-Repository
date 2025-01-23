@@ -38,16 +38,19 @@ button:hover {
 }
 
 .link-header {
-    height: 100px;
+    text-align: center;
+    height: auto;
     width: auto;
-    position: center;
-    display: inline-block;
     margin: 0 auto;
 
 }
 
-a {
- 
+#club-search-div{
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    width:auto;
+    padding-bottom: 5px;
 }
 
 
