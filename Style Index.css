@@ -66,6 +66,18 @@ input {
     border-radius: 10px;
 }
 
+#announcements-section {
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    border: black 20px;
+}
 
+.announcemnet {
+
+    height: 1152px;
+    width: 864px;
+}
 
 /* Css is the design language of a site, it controls the background color, font, placement of stuff, animations, etc,*/
