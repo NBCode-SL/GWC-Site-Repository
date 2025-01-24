@@ -5,7 +5,13 @@ body {
     font-family: sans-serif;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: white;
     text-align: center;
 }
@@ -45,12 +51,19 @@ button:hover {
 
 }
 
-#club-search-div{
+#club-search-div {
     text-align: center;
     margin: 0 auto;
     height: auto;
-    width:auto;
-    padding-bottom: 5px;
+    width: auto;
+    padding-bottom: 50px;
+}
+
+input {
+    text-align: center;
+    height: 40%;
+    width: 40%;
+    border-radius: 10px;
 }
 
 
