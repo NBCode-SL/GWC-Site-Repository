@@ -28,25 +28,23 @@ button:hover {
 
 }
 
-#tutor-list {
-    margin: 0 auto;
-    color: black;
-    background-color: #ffff;
-    border: black;
-}
-
 #club-table {
-    
     margin: 3 auto;
     color: black;
-    background-color: #ffff;
     border: black;
-
 }
+
+#club-table tr {
+    background-color: #ffff;
+    margin: 15px auto;
+    border: 5px solid black;
+}
+
 #club-table #Girls-Who-Code {
-    font-family:Cambria ;
+    font-family: Cambria;
     background-color: #43D6B9
 }
+
 .link-header {
     text-align: center;
     height: auto;
