@@ -42,7 +42,14 @@ button:hover {
 
 #club-table #Girls-Who-Code {
     font-family: Cambria;
-    background-color: #43D6B9
+    background-color: #43D6B9;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#club-table #GWC-img{
+    height: 100px;
+    width: 100px;
 }
 
 .link-header {
