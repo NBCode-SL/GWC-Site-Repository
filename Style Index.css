@@ -40,11 +40,15 @@ button:hover {
     border: 5px solid black;
 }
 
-#club-table #Girls-Who-Code {
+#club-table #GirlsWhoCode {
     font-family: Cambria;
     background-color: #43D6B9;
     margin: 0 auto;
     text-align: center;
+}
+
+#club-table p {
+    color:#43D6B9
 }
 
 #club-table #GWC-img{
