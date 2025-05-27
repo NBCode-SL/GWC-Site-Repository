@@ -23,3 +23,7 @@ function table_search() {
         }
     }
 }
+
+function anouncements(file, height, width) {
+    file = asd
+}
