@@ -1,8 +1,9 @@
 body {
     background: #690505;
-    color: #ffd;
-    /*#800000*/
-    font-family: sans-serifbjuj;
+    color: #ffdd;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 p,
@@ -12,84 +13,130 @@ h3,
 h4,
 h5,
 h6 {
-    color: white;
+    color: #fff;
     text-align: center;
+    margin: 0.5em 0;
 }
 
 button {
+    display: inline-block;
     text-align: center;
-    border-radius: 2%;
-    background-color: white;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #690505;
+    border: none;
+    padding: 0.5em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
-
 button:hover {
-    color: red;
-
+    color: #c00;
+    background: #ffeaea;
 }
 
 #club-table {
-    margin: 3 auto;
-    color: black;
-    border: black;
+    margin: 2em auto;
+    color: #111;
+    border-collapse: collapse;
+    width: 80%;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 #club-table tr {
-    background-color: #ffff;
-    margin: 15px auto;
-    border: 5px solid black;
+    background-color: #fff;
+    border-bottom: 2px solid #690505;
+}
+
+#club-table tr:last-child {
+    border-bottom: none;
 }
 
 #club-table #GirlsWhoCode {
-    font-family: Cambria;
+    font-family: Cambria, serif;
     background-color: #43D6B9;
-    margin: 0 auto;
+    color: #fff;
     text-align: center;
 }
 
 #club-table p {
-    color:#43D6B9
+    color: #43D6B9;
 }
 
-#club-table #GWC-img{
+#club-table #GWC-img {
     height: 100px;
     width: 100px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .link-header {
     text-align: center;
-    height: auto;
-    width: auto;
-    margin: 0 auto;
-
+    margin: 1em auto;
+    font-weight: 600;
+    font-size: 1.2em;
 }
 
 #club-search-div {
     text-align: center;
-    margin: 0 auto;
-    height: auto;
-    width: auto;
-    padding-bottom: 50px;
+    margin: 2em auto 1em auto;
+    padding-bottom: 2em;
 }
 
-input {
+input[type="text"],
+input[type="search"] {
     text-align: center;
-    height: 40%;
+    height: 2.5em;
     width: 40%;
     border-radius: 10px;
+    border: 1px solid #43D6B9;
+    padding: 0.5em;
+    font-size: 1em;
+    transition: border 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="search"]:focus {
+    border: 2px solid #690505;
+    outline: none;
 }
 
 #announcements-section {
     text-align: center;
-    height: auto;
-    width: auto;
-    margin: 0 auto;
+    margin: 2em auto;
 }
 
-.announcemnet {
-
-    height: 1152px;
-    width: 864px;
+.announcement {
+    max-width: 864px;
+    margin: 1.5em auto;
+    padding: 2em;
+    background: #fff;
+    color: #690505;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
-/* Css is the design language of a site, it controls the background color, font, placement of stuff, animations, etc,*/
+@media (max-width: 900px) {
+    #club-table, .announcement {
+        width: 98%;
+        max-width: 100%;
+    }
+    #club-table #GWC-img {
+        width: 60px;
+        height: 60px;
+    }
+    .announcement {
+        padding: 1em;
+    }
+    input[type="text"],
+    input[type="search"] {
+        width: 90%;
+    }
+}
+
+/* Modernized and fixed CSS */
